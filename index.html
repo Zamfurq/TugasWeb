@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PT. Karya Abadi Jaya</title>
+        <link rel="stylesheet" href="assets/style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <div class="over">
+                <h1>PT. Karya Abadi Jaya </h1>
+                <p>The best IT solution consultant in East Java and Indonesia</p>
+            </div>
+            <nav>
+                <a href="#about_us" onclick="smoothScroll(document.getElementById('about_us'))">About Us</a>
+                <div class="button">
+                    <button class="dropbtn" onclick="dropDown()">Services</button>
+                    <div id="serviceDropdown" class="dropdown">
+                        <a href="#web_dev" onclick="smoothScroll(document.getElementById('web_dev'))">Web Development</a>
+                        <a href="#mobile_dev" onclick="smoothScroll(document.getElementById('mobile_dev'))">Mobile Apps Development</a>
+                        <a href="#desktop_dev" onclick="smoothScroll(document.getElementById('desktop_dev'))">Desktop Apps Development</a>
+                    </div>
+                </div>
+                <a href="#benefit" onclick="smoothScroll(document.getElementById('benefit'))">Benefits</a>
+                <a href="#contact" onclick="smoothScroll(document.getElementById('contact'))">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <div class="slideshow">
+                <h3 class="center">Welcome to our Websites. Here our Services: </h3>
+                <div class="slides fade">
+                    <img src="images/web_dev.jpg" style="width: 100%">
+                    <div class="text">Web Development</div>
+                </div>
+                <div class="slides fade">
+                    <img src="images/mobile_apps.jpg" style="width: 100%">
+                    <div class="text">Mobile Apps Development</div>
+                </div>
+                <div class="slides fade">
+                    <img src="images/desktop_apps.jpg" style="width: 100%">
+                    <div class="text">Desktop Apps Development</div>
+                </div>
+            </div>
+            <div id="content">
+                <article class="box" id="about_us">
+                    <h2 class="center">About Us</h2>
+                    <img src="images/it_office.jpg" class="images" alt="office images"/>
+                    <p>PT. Karya Abadi Jaya is one of the most trusted and best IT Consultant that based in Pasuruan, East Java. Our company are experienced on developing apps and maintaining website. PT. Karya Abadi Jaya has experienced developers that having a lot of portfolio in previous works. With our best resources, PT. Karya Abadi Jaya will give best service on the apps and web developments.</p>
+                </article>
+                <article class="box" id="services">
+                    <h2 class="center">Services</h2>
+                    <section class="flex-column box">
+                        <h3 id="web_dev" class="center">Web Development</h3>
+                        <img src="images/web_dev.jpg" class="images" alt="web development"/>
+                        <p>Do you want your business well-known and getting global reach market? Our company has solution to you! Not only developing and designing the website, we also engage and optimize your website with our SEO specialization that make your website reach top pages on many search engines. </p>
+                    </section>
+                    <section class="flex-column box">
+                        <h3 id="mobile_dev" class="center">Mobile Apps Development (Android/iOS)</h3>
+                        <img src="images/mobile_apps.jpg" class="images" alt="mobile apps development"/>
+                        <p>Mobile apps is also powerful tools that can help grow your business. Our company will build apps that not only useful for your business only, but also make your company more interactive to users. Not only that, we also advice the architecture of the apps.</p>
+                    </section>
+                    <section class="flex-column box">
+                        <h3 id="desktop_dev" class="center">Desktop Apps Development (NEW)</h3>
+                        <img src="images/desktop_apps.jpg" class="images" alt="desktop apps development"/>
+                        <p>Desktop apps is our new services. Desktop apps is one of the most important software in your workplace. Our company will develop desktop apps that benefit your business, your worker and the entire workplace. Not only that, we hear your needs about the usage of the software</p>
+                    </section>
+                    
+                </article>
+                <article class="box" id="benefit">
+                    <h2 class="center">Benefits</h2>
+                    <ul>
+                        <li><p>Most talented developers and consultant will help your business 24 hours per day</p></li>
+                        <li><p>The detail and explaination of the developed apps will know more how make good benefit to your business</p></li>
+                        <li><p>We will also build your technological solution that will make your business grow more.</p></li>
+                        <li><p>Not satisfied for the apps result? We can revise it as best as your business want.</p></li>
+                    </ul>
+                </article>
+            </div>
+            <aside>
+                <article class="profile box">
+                    <header class="center">
+                        <h2>The Innovator</h2>
+                        <p>Zaidan Fadhlurohman Faruq</p>
+                        <figure>
+                            <img class="photo images" src="images/zaidan.jpg">
+                        </figure>
+                    </header>
+                    <section>
+                        <h3 class="center">My experience</p>
+                        <ul>
+                            <li><p>Become the student in Sampoerna University</p></li>
+                            <li><p>Making the apps that ease the student to achieve good grades</p></li>
+                            <li><p>Having experiences on app development for 1 year</p></li>
+                        </ul>
+                        <h3 class="center">My email</h3>
+                        <p class="center">zaidanffaruq@gmail.com</p>
+                        <h3 class="center">My phone</h3>
+                        <p class="center">+6282234181042</p>
+                    </section>
+                </article>
+                <article class="box center" id="contact">
+                    <h2>Contact</h2>
+                    <p>Address <br /> Jalan Ahmad Yani No. 23 Pasuruan, East Java, Pasuruan</p>
+                    <p>Customer Service (09.00-17.00) <br/> +62 34 234 5678</p>
+                    <p>SMS/Whatsapp <br /> +628567823829</p>
+                    <p>Email<br/> customerservice@karyaabadijaya.co.id</p>
+                    
+                </article>
+            </aside>
+        </main>
+        <footer>
+            <div>
+                <h4>PT. Karya Abadi Jaya </h4>
+                <p>The best IT solution consultant in East Java and Indonesia</p>
+            </div>
+            <div class="copyright">
+                <p>PT. Karya Abadi Jaya &#169; 2021 All rights reserved</p>
+            </div>
+        </footer>
+        <script src="assets/function.js"></script>
+        <script src="assets/slideshow.js"></script>
+    </body>
+</html>
